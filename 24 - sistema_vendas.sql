@@ -10,10 +10,10 @@ IF OBJECT_ID('trg_VendasInsercao','TR') IS NOT NULL DROP TRIGGER trg_VendasInser
 IF OBJECT_ID('trg_VendasExclusao','TR') IS NOT NULL DROP TRIGGER trg_VendasExclusao;
 IF OBJECT_ID('trg_VendasAtualizacao','TR') IS NOT NULL DROP TRIGGER trg_VendasAtualizacao;
 GO
-IF OBJECT_ID('clientes','U') IS NOT NULL DROP TABLE clientes;  
-IF OBJECT_ID('produtos','U') IS NOT NULL DROP TABLE produtos;  
 IF OBJECT_ID('vendas','U') IS NOT NULL DROP TABLE vendas;  
+IF OBJECT_ID('produtos','U') IS NOT NULL DROP TABLE produtos; 
 IF OBJECT_ID('auditoria_vendas','U') IS NOT NULL DROP TABLE auditoria_vendas;  
+IF OBJECT_ID('clientes','U') IS NOT NULL DROP TABLE clientes; 
 GO
 
 ----------------------------------------------
